@@ -33,7 +33,7 @@ export default function Testimonials() {
               padding: "20px",
             }}
           >
-            <p>"{review.text}"</p>
+            <p>&quot;{review.text}&quot;</p>
             <p>- {review.name}</p>
           </div>
         ))}
